@@ -19,4 +19,16 @@ let fruit = "Какой фрукт купить?";
 let bag = {
   
 };
-console.log( bag[fruit] = 'banan' ); // 
+// console.log( bag[fruit] = 'banan' ); 
+
+function makeUser(name, age,city){
+    return {
+        name: name,
+        age: age,
+        city: city,
+    }
+}
+
+const David = makeUser( 'David', 30, 'Rom')
+console.log(David);
+console.log('Имя:' + David.age);
