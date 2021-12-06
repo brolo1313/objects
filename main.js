@@ -30,5 +30,14 @@ function makeUser(name, age,city){
 }
 
 const David = makeUser( 'David', 30, 'Rom')
-console.log(David);
-console.log('Имя:' + David.age);
+// console.log(David);
+// console.log('Имя:' + David.age);
+
+let user2 = { name: "John", age: 30, city: 'Kiev' };
+
+for ( key in user2){
+    console.log(user2[key]);
+}
+
+// console.log("age" in user2);
+// console.log("city" in user2); 
