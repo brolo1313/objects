@@ -4,6 +4,8 @@ let user = {
 }
 
 user.isAdmin = true;
+delete user.name
 
+console.log(user);
 console.log(user.name);
 console.log(user.isAdmin);
